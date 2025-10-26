@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nostra | Home</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- Offer Banner -->
+  <div class="offer-bar">
+    <p>Sign Up and <b>GET 20% OFF</b> for your first Order</p>
+    <span class="close-offer" onclick="this.parentElement.style.display='none'">×</span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <h1>Nostra</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#">New Arrival</a>
+      <a href="#">Most Wanted</a>
+      <a href="collections.html">Collections</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section with Slider -->
+  <section class="hero">
+    <div class="slider">
+      <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1503342217505-b0a15ec3261c');">
+        <div class="content">
+          <h2>Level up your style with our</h2>
+          <p>Summer Collections</p>
+          <a href="collections.html" class="btn">Shop Now →</a>
+        </div>
+      </div>
+
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1490481651871-ab68de25d43d');">
+        <div class="content">
+          <h2>Discover the Latest Fashion Trends</h2>
+          <p>Exclusive Designs</p>
+          <a href="collections.html" class="btn">Explore Now →</a>
+        </div>
+      </div>
+
+      <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1520975918319-89448ac61ec3');">
+        <div class="content">
+          <h2>Upgrade Your Wardrobe</h2>
+          <p>Premium Collection</p>
+          <a href="collections.html" class="btn">Shop Collection →</a>
+        </div>
+      </div>
+
+      <span class="arrow prev" onclick="changeSlide(-1)">&#10094;</span>
+      <span class="arrow next" onclick="changeSlide(1)">&#10095;</span>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Nostra. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Brand Section -->
+<section class="brands">
+  <div class="brand"><i class="fa-brands fa-behance"></i><p>Puma</p></div>
+  <div class="brand"><i class="fa-brands fa-adn"></i><p>Adidas</p></div>
+  <div class="brand"><i class="fa-solid fa-s"></i><p>Simple</p></div>
+  <div class="brand"><i class="fa-solid fa-leaf"></i><p>Leaves</p></div>
+  <div class="brand"><i class="fa-brands fa-behance"></i><p>Behance</p></div>
+  <div class="brand"><i class="fa-brands fa-twitch"></i><p>Twitch</p></div>
+  <div class="brand"><i class="fa-solid fa-leaf"></i><p>Leaves</p></div>
+</section>
+
+<!-- Customer Experience Section -->
+<section class="experience">
+  <h2>We Provide Best <br> Customer Experiences</h2>
+  <p>We ensure that our customer have the best shopping experience</p>
+
+  <div class="experience-boxes">
+    <div class="box">
+      <i class="fa-solid fa-check-circle"></i>
+      <h3>Original Products</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-face-smile"></i>
+      <h3>Satisfaction Guarantee</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-brush"></i>
+      <h3>New Arrival Everyday</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+    </div>
+    <div class="box">
+      <i class="fa-solid fa-truck-fast"></i>
+      <h3>Fast & Free Shipping</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, consequuntur.</p>
+    </div>
+  </div>
+</section>
+<!-- New Arrivals Section -->
+<section class="new-arrivals">
+  <h2>New Arrivals</h2>
+  <div class="arrivals-container">
+    <div class="arrival-item">
+      <img src="img1.jpeg" alt="Shirt 1">
+      <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrival-item">
+      <img src="img2.jpeg" alt="Pant 1">
+      <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrival-item">
+      <img src="img3.jpeg" alt="Shirt 2">
+      <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="arrival-item">
+      <img src="img4.jpeg" alt="Shirt 3">
+      <button>Shop Now <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Sections</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="limited-offer-banner">
+        <div class="banner-content-wrapper">
+            <div class="banner-image-placeholder">
+                </div>
+            
+            <div class="banner-text-content">
+                <h1>Limited Offer</h1>
+                <p><strong>35% OFF</strong> on this for the first 30 Customers</p>
+                <a href="#" class="shop-button">Shop Now &rarr;</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="newsletter-section">
+        <h2>Join our News Letter</h2>
+        <p class="newsletter-subtext">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email address" aria-label="Enter your email address" required>
+            </form>
+    </section>
+
+</body>
+</html>
+<div class="centered-subscribe-container">
+        <a href="#" class="subscribe-button-center">Subscribe &rarr;</a>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content-wrapper">
+            <div class="footer-info">
+                <h3 class="footer-logo">Nostra</h3>
+                <p class="footer-text">
+                    The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interest
+                </p>
+            </div>
+            
+            <div class="footer-social">
+                <a href="#" aria-label="Instagram" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" aria-label="Twitter" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" aria-label="Facebook" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </div>
+
+            <p class="footer-copyright">
+                @ 2023 Nostra.com
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
